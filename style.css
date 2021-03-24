@@ -1,10 +1,13 @@
+
+
 h1 {
     color: white;
+    margin-left: 30px;
 }
 
-/* * {
+.header * {
     border: solid;
-} */
+} 
 
 .header{
     background-color: cadetblue;
@@ -32,3 +35,62 @@ h1 {
 p,h2{
     text-align: center;
 }
+
+a:link {
+
+    color: rgb(6, 73, 6);
+    
+}
+
+a:visited {
+
+    color : rgb(171, 253, 6)
+}
+
+.menu {
+
+    margin-right: 30px;
+    
+}
+
+.menu a{
+
+    margin-left: 20px;
+}
+
+.item {
+
+    position: relative;
+}
+
+
+.item p{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+
+    opacity: 1;
+}
+
+.item:hover img{
+
+    opacity: 0.44;
+}
+
+
+
+
+
+
+
+
+
+
+
+
